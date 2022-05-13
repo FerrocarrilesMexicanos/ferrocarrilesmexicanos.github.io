@@ -1,0 +1,304 @@
+@charset "utf-8";
+@import url("../webfonts/Century_Gothic/stylesheet.css");
+
+*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		header,nav,main,footer{
+    margin: 0 auto;
+    width: auto;
+		}
+		header{
+    height: 150px;
+    width: auto;
+    background-color: #102108;
+    padding: 20px;
+}
+
+		nav{
+    height: auto;
+    width: auto;
+    background-color: #678D58;
+    padding: 10px 5px;
+    text-align: right;
+		}
+		nav ul li {
+    display: inline-block;
+    padding: 20px;
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+}
+a {
+    color: #F8E4B5;
+    text-align: right;
+    font-family: "Gill Sans", "Gill Sans MT";
+    font-style: normal;
+    font-size: 23px;
+}
+
+
+		main{
+    width: auto;
+    height: auto;
+    background-color: #F8E4B5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+		}
+main ul li{
+    display: inline-block;
+    padding: 20px;
+    list-style-type: none;
+}
+main ul li a {
+    text-decoration: none;
+}
+
+		section{
+    background-color: #8D0801;
+    color: antiquewhite;
+    width: 1000px;
+    height: auto;
+    padding: 20px;
+    margin: 20px auto;
+    overflow: auto;
+		}
+		footer{
+    height: auto;
+    width: auto;
+    background-color: #102108;
+    padding: 20px;
+    text-align: center;
+		}
+h1 {
+    color: #B70A01;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 38px;
+    padding-top: 20px;
+    padding-right: 6%;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    display: inline;
+    margin-left: 20px;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #678D58;
+    color: #F8E4B5;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+	text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: none;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+	.estilo_nav {
+    color: #F8E4B5;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Century Gothic";
+    font-style: normal;
+    padding: 10px 70px;
+    font-size: small;
+}
+    .img_di {
+    margin-left: 621px;
+}.img_cent {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+p {
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: "Century Gothic";
+    font-style: normal;
+	color: #F8E4B5;
+}
+br {
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.img_lat {
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+img {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.img_sup {
+    margin-left: 739px;
+    padding-right: 0px;
+    margin-right: 70px;
+
+
+
+
+}
+h2 {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.text_edit {
+}
+.text_nav {
+    color: #F8E4B5;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 20pt;
+    text-align: left;
+}
+.text_nav {
+}
+
+h6 {
+    margin: 0 70px;
+    font-family: "Century Gothic";
+    font-size: 12px;
+}
+.text_edit {
+    font-family: "Century Gothic";
+    color: #F8E4B5;
+    font-style: normal;
+    font-size: 12px;
+    margin-left: 45px;
+    padding-left: 84px;
+}
+.text_nav {
+    color: #F8E4B5;
+    text-align: left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 20pt;
+}
+label {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    color: #F8E4B5;
+    font-family: "Century Gothic";
+    font-style: normal;
+    text-align: left;
+}
+input {
+    margin-left: 70px;
+    width: 86%;
+    height: 30px;
+    border-radius: 6px;
+}
+.text_cont {
+    font-size: medium;
+
+}
+.button {
+  float: left;
+}
+#textarea2 {
+    margin-left: 70px;
+    border-radius: 6px;
+    color: #000000;
+}
+h3 {
+    margin: 0 70px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+.text_te {
+    display: inherit;
+    padding: 5px 5px;
+    font-family: "Century Gothic";
+    font-size: small;
+}
+td {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: large;
+}
+table {
+    width: auto;
+    height: auto;
+    border-left: medium none #8D0801;
+    border-right: thin none #8D0801;
+    border-bottom: thin none #8D0801;
+    border-top: thin none #8D0801;
+    background-color: #8D0801;
+    margin: 5px;
+    padding: 5px;
+}
+.texy_pren {
+    text-align: right;
+    font-size: small;
+}
+.text_cent {
+}
+.text_cent {
+    text-align: center;
+}
+.but {
+    width: 60px;
+}
+h2 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.video_1 {
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+}
